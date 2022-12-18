@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+}
+
+.contato {
+    width: 100%;
+    max-width: 20vw;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.field {
+    padding: 0.5vw;
+    margin-bottom: 0.5vw;
+    border-radius: 5px;
+}
+
+.textarea{
+    height: 150px;
+}
